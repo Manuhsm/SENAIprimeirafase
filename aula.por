@@ -1,25 +1,33 @@
 programa {
+  
+  inclua biblioteca Matematica 
+
+
+
   funcao inicio() {
-    // real area, raio
-    // escreva("Raio:")
-    // leia(raio)
-    // area = 3.14159 * raio * raio
-    // escreva("Area: " + area)
+    cadeia nome 
+    real nota1, nota2, nota3, media, frequencia
 
-    // real area
-    // inteiro base = 12
-    // inteiro altura = 5
-    // area= (base * altura) / 2 
-    // escreva("Total da area: " + area)
-
-    // cadeia nome, sobrenome, nomeCompleto 
-    // escreva("Nome: ")
-    // leia(nome)
-    // escreva("Sobrenome: ")
-    // leia(sobrenome)
-    // nomeCompleto= nome + " " + sobrenome
-    // escreva("Nome completo: " + nomeCompleto)
-
-
+    escreva("Digite o nome do aluno: ")
+    leia(nome)
+    escreva("Digite a primeira nota: ")
+    leia(nota1)
+    escreva("Digite a segunda nota: ")
+    leia(nota2)
+    escreva("Digite a terceira nota: ")
+    leia(nota3)
+    media= (nota1 + nota2 + nota3) / 3
+    media = Matematica.arredondar(media,2)
+    // escreva(media)
+    escreva("De 0 a 1, digite a frequencia: ")
+    leia(frequencia)
+    frequencia= frequencia * 100
+    limpa()
+    escreva(nome, " sua media final é: " , media, "\n E sua frequencia é " , frequencia , "% \n")
+    se (media>=7 e frequencia>=8){
+      escreva("Aprovado!")
+    } senao {
+      escreva("Reprovado")
+    }
   }
 }

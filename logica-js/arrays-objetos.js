@@ -16,10 +16,16 @@ const alunosDoSenai = [
         email:"euamopetiscos@gmail.com",
         matricula:"2502",
         idade:2
+    },
+    {
+        nome:"Tutu",
+        email:"tiozicotutu@gmail.com",
+        matricula:"4787",
+        idade:2
     }
 ]
 
-console.log(`Meu nome é ${alunosDoSenai[2].nome} 
-    meu email é ${alunosDoSenai[2].email} 
-    minha matricula é ${alunosDoSenai[2].matricula}
-     e minha idade é ${alunosDoSenai[2].idade}`)
+console.log(`Meu nome é ${alunosDoSenai[3].nome} 
+    meu email é ${alunosDoSenai[3].email} 
+    minha matricula é ${alunosDoSenai[3].matricula}
+     e minha idade é ${alunosDoSenai[3].idade}`)

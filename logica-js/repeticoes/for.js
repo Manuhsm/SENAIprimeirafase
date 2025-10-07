@@ -24,13 +24,4 @@
 //     alert(nomes[0])
 // }
 
-//01
-for(let numero = 1; numero<=10; numero++){
-    let quadrado = numero * numero
-    console.log(`O quadrado de ${numero} é ${quadrado}`)
-}
 
-//02
-// for(let i=10; i>=1; i--){
-    //     alert(i)
-// }

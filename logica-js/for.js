@@ -19,7 +19,17 @@
 // console.log("Resultado da soma " , soma)
 
 
-let alunos = [ "João" , "Maria" , "Joana"]
-alunos.push("Pedro")
+// let alunos = [ "João" , "Maria" , "Joana"]
+// alunos.push("Pedro")
 
-console.log(alunos.length)
+// console.log(alunos.length)
+
+// for(let i=0; i <= 99; i++){
+//     console.log(i)
+// }
+
+let i=0;
+do{
+    console.log(i);
+    i++;
+}while(i<=99)

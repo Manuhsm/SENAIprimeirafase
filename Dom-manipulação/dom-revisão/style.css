@@ -1,0 +1,26 @@
+/* *{
+
+} */
+
+button{
+    background-color: rgb(20, 120, 212);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+}
+
+/* #btCadastar{
+    color: rgb(255, 255, 255);
+} */
+
+#formLogin{
+    background-color: rgb(166, 225, 243);
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+

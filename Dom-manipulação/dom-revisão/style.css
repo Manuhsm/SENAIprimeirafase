@@ -3,9 +3,10 @@
 } */
 
 button{
-    background-color: rgb(20, 120, 212);
-    color: rgb(255, 255, 255);
-    border: none;
+    background-color: rgb(255, 255, 255);
+    /* width: 100%; */
+    color: rgb(124, 245, 54);
+    /* border: none; */
     border-radius: 5px;
 }
 
@@ -14,13 +15,33 @@ button{
 } */
 
 #formLogin{
-    background-color: rgb(166, 225, 243);
-    width: 80%;
-
+    background-color: rgb(155, 255, 155);
+    width: 100%;
+    height: 300px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     justify-content: center;
-    gap: 5px;
+    gap: 1px;
 }
+
+img{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+
+
+/* #container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: blue;
+    height: 200px;
+} */
 

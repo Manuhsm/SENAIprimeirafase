@@ -8,13 +8,24 @@
 //     document.getElementById("resultado").innerHTML = "Usuario cadastrado com sucesso: " + usuario
 // }
 
-let x=500
-let y=35.0
-let media
+// let x=500
+// let y=35.0
+// let media
+// function totalDeCombustivel(){
+//     media= x/y
+//      document.getElementById
+
+// }
+
 function totalDeCombustivel(){
-    media= x/y
-     document.getElementById
+    let distancia = Number(document.getElementById('inputDistancia').value)
+    let combustivel = Number(document.getElementById('inputCombustivel').value)
 
+    let consumo = distancia / combustivel
+    console.log(consumo);
+
+    // document.getElementById('resultadoConsumo').innerHTML = "O consumo de " + consumo + "km/L"
+    document.getElementById('resultadoConsumo').innerHTML = `O consumo foi de ${consumo} Km/l`
+    
 }
-
 

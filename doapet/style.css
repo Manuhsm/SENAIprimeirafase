@@ -17,8 +17,8 @@
 }
 
 #formTitulo{
-   color: rgb(86, 86, 252);
-   padding-left: 32%;
+   color: rgb(24, 179, 240);
+   padding-left: 40%;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -77,8 +77,9 @@ body{
     font-size: 120%;
 }
 
-.inputConteiner{
-   
+.inputContainer{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 30px;
    
 }
 

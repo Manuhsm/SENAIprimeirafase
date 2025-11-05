@@ -1,0 +1,85 @@
+.inputLogin{
+   /* border: 0 0 2px 0; */
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+#formLogin{
+
+    border: 3px solid green;
+    border-radius: 10px;
+    padding: 30px;
+    width: 50%;
+}
+
+#formTitulo{
+   color: rgb(86, 86, 252);
+   padding-left: 32%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#img{
+    padding-left: 25%;
+    max-width: 50%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#esqueceuSenha{
+    border: none;
+    padding-left: 200px;
+}
+
+#esseAqui{
+    width: 100%;
+    /* background-color: aqua; */
+    text-align: center;
+    color: rgb(129, 128, 128);
+}
+
+#button1{
+    width: 50%;
+    background-color: green;
+    border-color: green;
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+    /* text-align: center; */
+    inline-size: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 120%;
+}
+
+#button2{
+    width:50%;
+    border: 2px solid green;
+    border-radius: 5px;
+    color: green;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    font-size: 120%;
+}
+
+.inputConteiner{
+   
+   
+}
+
+

@@ -68,4 +68,29 @@ main {
 
 footer {
   background-color: #666;
+  padding: 15px 0;
+  color: #fff;
+  text-align: center;
+}
+
+/* arquivo serviços */
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
+
+button{
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  &#show{
+    background: blue;
+  }
+  &#hide{
+    background: brown;
+  }
 }

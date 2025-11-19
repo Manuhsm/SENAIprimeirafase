@@ -1,17 +1,46 @@
-//arguivo serviços
+//busca
 
-const servicoweb = document.querySelector("#servico-web");
+const inputForm = document.querySelector("#busca")
 
-const showButton = document.querySelector("#show");
+const botaoBusca = document.querySelector("#botaoBusca")
 
-const hideButton = document.querySelector("#hide");
+const resultadoDiv = document.querySelector("#resultado")
 
-showButton.addEventListener("click",()=>{
-     servicoweb.classList.add("show")
-     servicoweb.classList.remove("hide");
-});
+inputForm.addEventListener("keydown" , (e)=>{
+    console.log(e.key)
+})
 
-hideButton.addEventListener("click",()=>{
-    servicoweb.classList.add("hide")
-    servicoweb.classList.remove("show");
-});
+inputForm.addEventListener("focus" , (e)=>{
+    inputForm.style.backgroudColor = "#F00"
+})
+
+inputForm.addEventListener("blur" , (e)=>{
+    inputForm.style.backgroudColor = ""
+})
+
+function searchResult(){
+    const valor=inputForm.ariaValueMax.trim()
+    if(valorBusca){
+        resultadoDiv.textContent= `você buscou por $(valorBusca)`
+    }else{
+        resultadoDiv.textContent=`por favor, insira alsgo na busca`
+    }
+}
+
+botaoBusca.addEventListener("click" , (e)=>{
+    searchResult()
+
+})
+
+//botao de troca de tema 
+
+const botaoTrocaTema = document.querySelector("#tema")
+ 
+function altenarTema(){
+    document.body.classList.toggle("escuro")
+    document.body.classList.toggle("claro")
+}
+
+botaoTrocaTema.addEventListener("click",(e)=>{
+
+})
